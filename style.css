@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.navbar{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h5{
+    border: 1px solid white;
+    color: white;  
+}
+.home-text h2 span{
+    color: red;
+}
+.navslide{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.916);
+    
+}
+.navslide ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navslide ul li{
+    list-style: none;
+    padding: 1rem;
+    margin: 0.5rem;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.phone{
+    padding: 1rem;
+    background-color: red;
+    color: white;
+}
+.navslide ul li :hover{
+    border: 1px solid red;
+    background-color: red;
+    color:white   ;
+    padding: 1rem;
+    margin: 0.5rem;
+} 
+.home-bg{
+    height: 100vh;
+    background-image: url('./images/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home-bg .home-text{
+    color: white;
+   
+}
+.home-text p{
+    border: 1px solid white;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 15vw;
+    font-size: small;
+    text-align: center;
+
+}
+.home-text h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.a{
+    color: white;
+}
+.a:hover{
+    color: white;
+}
+button{
+    outline: none;
+    border: none;
+    height: 6.5vh;
+    width: 9vw;
+    text-transform: uppercase;
+    font-size: small;
+    color: white;
+    background-image: linear-gradient(to right, red , rgb(255, 196, 0));
+
+}
+button i{
+    padding-left: 1rem;
+}
+.advertisement-card-pannel{
+    margin-top: -5rem;
+    
+}
+.advertisement-card{
+    background-color: #fff;
+    width: 22rem;
+    
+}
+.advertisement-card h2{
+    font-size: 7rem;
+    font-weight: 200;
+    color: rgb(238, 238, 238);
+}
+
+.advertisement-card .inner-data{
+    margin-top: -5rem;
+}
+.inner-data h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 2.5rem;
+}
+.inner-data p{
+    font-size: small;
+}
+.inner-data a{
+    color: red;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+
+
