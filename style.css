@@ -24,12 +24,14 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-
+#bar{
+    cursor: pointer;
+}
 .nav h5{
     border: 1px solid white;
     color: white;  
 }
-.home-text h2 span{
+span{
     color: red;
 }
 .navslide{
@@ -102,12 +104,17 @@ button{
     outline: none;
     border: none;
     height: 6.5vh;
-    width: 9vw;
     text-transform: uppercase;
     font-size: small;
     color: white;
     background-image: linear-gradient(to right, red , rgb(255, 196, 0));
 
+}
+.btnwidth{
+    width: 9vw;
+}
+.btnwidth-sec-2{
+    width: 12vw;
 }
 button i{
     padding-left: 1rem;
@@ -119,6 +126,7 @@ button i{
 .advertisement-card{
     background-color: #fff;
     width: 22rem;
+    border-radius: 4px;
     
 }
 .advertisement-card h2{
@@ -143,6 +151,90 @@ button i{
     font-size: small;
     text-transform: uppercase;
 }
+.sec-2-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.sec-2-text h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.sec-2-text p{
+    font-size: small;
+}
+.booking-offer{
+    height: 50vh;
+    background-image: url('./images/booking-offer-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+}
+.btnwidth-bookingoffer{
+    width: 12vw;
+}
+.booking-offer h2{
+    font-weight: bold;
+    line-height: 2.3rem;
+}
+.booking-offer p{
+    font-size: small;
+    letter-spacing: 0.2rem;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading .heading-top{
+    width: 4vw;
+    height: 0.3rem;
+    background-color:red;
+    border-radius: 2rem;
+}
+.heading h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.heading p{
+    font-size: small;
+}
+.services .card , .services .card .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .card .card-body{
+    flex-direction: column;
+    transition:cubic-bezier(0.19, 1, 0.22, 1)
+}
+.card-body h5{
+    font-weight:bold;
+    text-transform: uppercase;
+    color: red;
+}
+.card{
+    border: none;
+}
+.card-body p{
+    font-size: small;
+}
+.services .card img{
+    width: 5rem;
+    height: 5rem;
+}
+.card:hover{
+   transform: scale(0.9);
+   transition: 1s;
 
-
-
+}

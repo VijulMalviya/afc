@@ -2,8 +2,16 @@
 @media screen and (max-width:576px) {
     
     button{
-        height: 4.5vh;
-        width: 24vw;   
+        height: 4.5vh;   
+    }
+    .btnwidth{
+        width: 24vw;
+    }
+    .btnwidth-sec-2{
+        width: 24vw;
+    }
+    .btnwidth-bookingoffer{
+        width: 24vw;
     }
     .home-text p{   
         padding: 0.2rem;
@@ -31,6 +39,13 @@
     .inner-data p{
         text-align: center;
     }
+    .booking-offer{
+        height: 40vh;
+        background-image: url('./images/bookingoffer-mobile.jpg');
+    }
+    .heading .heading-top{
+        width: 8vw;
+    }
     
 }
 
@@ -38,8 +53,16 @@
 @media screen and (min-width:768px) and (max-width:992px) {
     
     button{
-        height: 4.5vh;
-        width: 18vw;   
+        height: 4.5vh;   
+    }
+    .btnwidth{
+        width: 18vw;
+    }
+    .btnwidth-sec-2{
+        width: 14vw;
+    }
+    .btnwidth-bookingoffer{
+        width: 14vw;
     }
     .home-text p{   
         padding: 0.2rem;
@@ -52,8 +75,13 @@
         height: 8vh;
     }
     .advertisement-card{
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.081);
-        
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.081);   
+    }
+    .booking-offer{
+        height: 40vh;  
+    }
+    .heading .heading-top{
+        width: 6vw; 
     }
     
 }
