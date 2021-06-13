@@ -15,7 +15,7 @@ a{
 
 .nav{
     position: fixed;
-    z-index: 99;
+    z-index: 999;
     background-color: rgba(0, 0, 0, 0.747);
 }
 .navbar{
@@ -35,6 +35,7 @@ span{
     color: red;
 }
 .navslide{
+    z-index: 99;
     display: none;
     position: fixed;
     height: 100vh;
@@ -182,6 +183,9 @@ button i{
 .btnwidth-bookingoffer{
     width: 12vw;
 }
+.btnwidth-course{
+    width: 12vw;
+}
 .booking-offer h2{
     font-weight: bold;
     line-height: 2.3rem;
@@ -236,5 +240,123 @@ button i{
 .card:hover{
    transform: scale(0.9);
    transition: 1s;
+  
 
+}
+.galleryimg{
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.galleryimg:hover{
+    filter: grayscale(0);
+ 
+
+}
+.img1{
+    background-image: url('https://images.unsplash.com/photo-1522898467493-49726bf28798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+}
+.img2{
+    background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+}
+.img3{
+    background-image: url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80');
+}
+.img4{
+    background-image: url('https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=674&q=80');
+}
+.img5{
+    background-image: url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+}
+.img6{
+    background-image: url('https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+}
+.img7{
+    background-image: url('https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80');
+}
+.img8{
+    background-image: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=857&q=80');
+}
+.testimonial-pannel{
+    background-color: rgb(24, 24, 24);
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.testimonial h2{
+    color: red;
+    
+}
+.testimonial h5{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.testimonial p{
+    font-size: small;
+}
+.testimonial h6{
+    font-weight: 200;
+}
+.courses .card{
+    padding: 1rem;
+}
+.courses .card img{
+    height: 40vh;
+}
+.courses .card h5{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+footer{
+    background-color: rgb(24, 24, 24);
+    padding: 2rem;
+}
+footer .footer-logo h5{
+    width: 20vw;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+footer ul li{
+    list-style: none;
+}
+footer h6{
+    color: red;
+    text-transform: uppercase;
+}
+footer  a{
+ font-size: small;
+ color: rgb(231, 231, 231);
+}
+footer li:hover a{
+ 
+    color: rgb(255, 255, 255);
+   }
+footer  a i{
+   margin-right: 1rem;
+   }
+.lower-footer{
+    background-color: rgb(24, 24, 24);
+}   
+.advertisement-footer{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    
+    
+}
+.advertisement-footer p{
+    margin-bottom: 0;
 }

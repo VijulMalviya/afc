@@ -10,6 +10,9 @@
     .btnwidth-sec-2{
         width: 24vw;
     }
+    .btnwidth-course{
+        width: 35vw;
+    }
     .btnwidth-bookingoffer{
         width: 24vw;
     }
@@ -46,6 +49,16 @@
     .heading .heading-top{
         width: 8vw;
     }
+    .courses .card img{
+        height: 20vh;
+    }
+    footer .footer-logo h5{
+        width: 40vw;
+        font-size: 0.8rem;
+    }
+    .advertisement-footer{
+        margin-bottom: 1rem;
+    }
     
 }
 
@@ -63,6 +76,9 @@
     }
     .btnwidth-bookingoffer{
         width: 14vw;
+    }
+    .btnwidth-course{
+        width: 25vw;
     }
     .home-text p{   
         padding: 0.2rem;
@@ -82,6 +98,20 @@
     }
     .heading .heading-top{
         width: 6vw; 
+    }
+    .galleryimg{
+        height: 20vh;
+      
+    }
+    .courses .card img{
+        height: 20vh;
+    }
+    footer .footer-logo h5{
+        width: 25vw;
+        font-size: 1rem;
+    }
+    .advertisement-footer{
+        margin-bottom: 1rem;
     }
     
 }
