@@ -12,6 +12,29 @@ a{
     text-decoration: none;
     color: black;
 }
+.loading{
+    
+    position: fixed;
+    height: 100vh;
+    background: black;
+    z-index: 9999;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading h5{
+    border: 2px solid white;
+    animation: loading 1s ease 0s 2 alternate-reverse forwards;
+} 
+@keyframes loading{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+} 
 
 .nav{
     position: fixed;
