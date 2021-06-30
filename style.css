@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-   
+    
 }
 
 a{
@@ -25,7 +25,7 @@ a{
 }
 .loading h5{
     border: 2px solid white;
-    animation: loading 1s ease 0s 2 alternate-reverse forwards;
+    animation: loading 1s ease 0s infinite alternate-reverse forwards;
 } 
 @keyframes loading{
         from{
@@ -382,4 +382,22 @@ footer  a i{
 }
 .advertisement-footer p{
     margin-bottom: 0;
+}
+
+
+.comingsoon{
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.63)),url('./images/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.comingsoon h5{
+    border: 2px solid white;
+    margin-bottom: 2rem;
 }

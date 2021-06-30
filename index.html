@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
 
@@ -37,18 +38,19 @@
       <div class="navslide col-12" id="navslide">
 
         <ul class="col-12">
-          <li><a href="" class="text-light">Home</a></li>
-          <li><a href="" class="text-light">About</a></li>
-          <li><a href="" class="text-light">Trainers</a></li>
-          <li><a href="" class="text-light">Gallery</a></li>
-          <li><a href="" class="text-light">Contact Us</a></li>
+          <li><a href="#home" class="text-light links ">Home</a></li>
+          <li><a href="#about" class="text-light links ">About</a></li>
+          <li><a href="#services" class="text-light links ">Services</a></li>
+          <li><a href="./comingsoon.html" class="text-light links ">Trainers</a></li>
+          <li><a href="#gallery" class="text-light links ">Gallery</a></li>
+          <li><a href="#contactus" class="text-light links ">Contact Us</a></li>
           <li><a href="tel:+918602737083" class=" phone"> <i class="fa fa-phone"></i>&nbsp; 8602737083 </a></li>
         </ul>
 
       </div>
     </div>
     <div class="row">
-      <div class="col-12 home-bg">
+      <div class="col-12 home-bg" id="home">
         <div class="container">
           <div class="row ">
             <div class="col-lg-6 col-md-10 col-12 home-text">
@@ -66,9 +68,9 @@
       </div>
     </div>
     <div class="container">
-      <div class="row advertisement-card-pannel mb-5 gy-4 gx-5">
+      <div class="row advertisement-card-pannel mb-5 gy-4 gx-5 " id="about" >
         <div class="col-lg-4 mx-auto col-md-6 col-12   ">
-          <div class="advertisement-card p-3">
+          <div class="advertisement-card p-3" data-aos="fade-up">
             <h2>01</h2>
             <div class="inner-data">
               <h4>modern equipment</h4>
@@ -79,7 +81,7 @@
           </div>
         </div>
         <div class="col-lg-4 mx-auto col-md-6 col-12   ">
-          <div class="advertisement-card p-3">
+          <div class="advertisement-card p-3" data-aos="fade-up">
             <h2>02</h2>
             <div class="inner-data">
               <h4>Professional trainer</h4>
@@ -91,7 +93,7 @@
         </div>
 
         <div class="col-lg-4 mx-auto col-md-6 col-12  ">
-          <div class="advertisement-card p-3">
+          <div class="advertisement-card p-3" data-aos="fade-up">
             <h2>03</h2>
             <div class="inner-data">
               <h4>Healthy deit plan</h4>
@@ -106,9 +108,9 @@
     <div class="container mt-5 mb-5">
       <div class="row mt-5 mb-5">
         <div class="col-lg-6 col-12 sec-2-imh">
-          <img src="./images/sec-2.jpg" class="img-fluid" alt="gym">
+          <img src="./images/sec-2.jpg" class="img-fluid" alt="gym" data-aos="zoom-in" >
         </div>
-        <div class="col-lg-6 col-12 sec-2-text p-md-5 p-4">
+        <div class="col-lg-6 col-12 sec-2-text p-md-5 p-4"data-aos="zoom-in" >
           <h3>we've skill in wide <span>range of fitness</span> and other body health facality.</h3>
           <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe ipsa fugit quas
             officiis tempora, consequatur vero. Omnis, reiciendis sit.</p>
@@ -117,8 +119,8 @@
       </div>
     </div>
 
-    <div class="row mt-5 mb-5">
-      <div class="col-12 booking-offer">
+    <div class="row mt-5 mb-5" id="services">
+      <div class="col-12 booking-offer" data-aos="zoom-in-up" >
         <p>discover your potential</p>
         <h2 class="text-center mt-3">
           book your early seat to get <span>summer 25%</span> discount
@@ -135,7 +137,7 @@
           <p class="text-muted text-center">We offer more than 35 group of exercises, aerobics classes each week</p>
         </div>
         <div class="row mt-5 mb-5">
-          <div class="col-lg-4 col-sm-6 col-12 services">
+          <div class="col-lg-4 col-sm-6 col-12 services" data-aos="zoom-in-up">
             <div class="card p-3">
               <img class="card-img-top" src="./images/treadmill.png" alt="img-fluid Card image cap">
               <div class=" mt-3 card-body">
@@ -145,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12 services">
+          <div class="col-lg-4 col-sm-6 col-12 services" data-aos="zoom-in-up">
             <div class="card p-3">
               <img class="card-img-top" src="./images/fitness.png" alt="img-fluid Card image cap">
               <div class=" mt-3 card-body">
@@ -155,7 +157,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12 services">
+          <div class="col-lg-4 col-sm-6 col-12 services" data-aos="zoom-in-up">
             <div class="card p-3">
               <img class="card-img-top" src="./images/yoga.png" alt="img-fluid Card image cap">
               <div class=" mt-3 card-body">
@@ -165,7 +167,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12 services">
+          <div class="col-lg-4 col-sm-6 col-12 services" data-aos="zoom-in-up">
             <div class="card p-3">
               <img class="card-img-top" src="./images/fitness-1.png" alt="img-fluid Card image cap">
               <div class=" mt-3 card-body">
@@ -175,7 +177,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12 services">
+          <div class="col-lg-4 col-sm-6 col-12 services" data-aos="zoom-in-up">
             <div class="card p-3">
               <img class="card-img-top" src="./images/workout-machine.png" alt="img-fluid Card image cap">
               <div class=" mt-3 card-body">
@@ -185,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12 services">
+          <div class="col-lg-4 col-sm-6 col-12 services" data-aos="zoom-in-up">
             <div class="card p-3">
               <img class="card-img-top" src="./images/extended.png" alt="img-fluid Card image cap">
               <div class=" mt-3 card-body">
@@ -198,7 +200,7 @@
         </div>
       </div>
     </div>
-    <div class="container mb-5">
+    <div class="container mb-5 " id="gallery" >
       <div class="row">
         <div class="col-12 heading">
           <div class="heading-top"></div>
@@ -208,14 +210,14 @@
       </div>
     </div>
     <div class="row ">
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img1"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img2"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img3"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img4"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img5"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img6"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img7"></div>
-        <div class="col-lg-3 col-md-6 col-12 galleryimg img8"></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img1" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img2" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img3" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img4" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img5" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img6" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img7" data-aos="flip-left" ></div>
+        <div class="col-lg-3 col-md-6 col-12 galleryimg img8" data-aos="flip-left" ></div>
     </div>
     <div class="row mb-5">
         <div class="col-12 testimonial-pannel">
@@ -227,21 +229,21 @@
           </div>
          <div class="container">
           <div class="row mb-5 mt-5">
-            <div class="testimonial col-12 mt-3 mb-3">
+            <div class="testimonial col-12 mt-3 mb-3" data-aos="zoom-in-up">
                   <h2><i class="fa fa-quote-left"></i></h2>
                   <h5 class="mt-2 text-center">a great start to a healthy life</h5>
                   <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, rerum!</p>
                   <h6 class="mt-4">Samiksha Verma</h6>
                   <p class="text-muted" >Manager, Axix Bank</p>
             </div>
-            <div class="testimonial col-12 mt-3 mb-3">
+            <div class="testimonial col-12 mt-3 mb-3" data-aos="zoom-in-up">
               <h2><i class="fa fa-quote-left"></i></h2>
               <h5 class="mt-2 text-center">the workout worth attending!</h5>
               <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, rerum!</p>
               <h6 class="mt-4">Sourabh Singh</h6>
               <p class="text-muted">Software Engineer</p>
         </div>
-        <div class="testimonial col-12 mt-3 mb-3">
+        <div class="testimonial col-12 mt-3 mb-3" data-aos="zoom-in-up">
           <h2><i class="fa fa-quote-left"></i></h2>
           <h5 class="mt-2 text-center">Very Professional club and trainers !!</h5>
           <p class="text-muted text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, rerum!</p>
@@ -252,7 +254,7 @@
          </div>
         </div>
     </div>
-    <div class="container mb-5">
+    <div class="container mb-5"data-aos="zoom-in-up" >
       <div class="row mt-5">
         <div class="col-12 heading">
           <div class="heading-top"></div>
@@ -261,7 +263,7 @@
         </div>
       </div>
       <div class="row courses">
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12"data-aos="zoom-in-up" >
           <div class="card" >
             <img class="card-img-top" src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" 
             alt="Card image cap">
@@ -272,7 +274,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12"data-aos="zoom-in-up" >
           <div class="card">
             <img class="card-img-top" src="https://images.unsplash.com/photo-1579854602908-ce7e7c29f4fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" 
             alt="Card image cap">
@@ -284,7 +286,7 @@
           </div>
         </div>
     
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12" data-aos="zoom-in-up">
           <div class="card" >
             <img class="card-img-top" src="https://images.unsplash.com/photo-1522898467493-49726bf28798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" 
             alt="Card image cap">
@@ -296,7 +298,7 @@
           </div>
         </div>
      
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12"data-aos="zoom-in-up" >
           <div class="card" >
             <img class="card-img-top" src="https://images.unsplash.com/photo-1571019613914-85f342c6a11e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" 
             alt="Card image cap">
@@ -307,10 +309,13 @@
             </div>
           </div>
         </div>
-        <button class="btnwidth-course mx-auto">See all Cources</button>
+        <div class="col-12 text-center">
+          <a href="comingsoon.html" class=""><button class="btnwidth-course ">See all Cources</button></a>
+
+        </div>
       </div>
       </div>
-      <footer class="row">
+      <footer class="row" id="contactus" >
         <div class="col-12 footer ">
       <div class="container">
         <div class="row footer-logo">
@@ -337,10 +342,10 @@
              <div class="col-lg-3 col-sm-3 col-12 footer-links mt-sm-4 mt-2">
                <h6>Links</h6>
                 <ul>
-                  <li><a href="">Registration</a></li>
-                  <li><a href="">pacakges</a></li>
-                  <li><a href="">All Courses</a></li>
-                  <li><a href="">Trainers</a></li>
+                  <li><a href="./comingsoon.html">Registration</a></li>
+                  <li><a href="./comingsoon.html">pacakges</a></li>
+                  <li><a href="./comingsoon.html">All Courses</a></li>
+                  <li><a href="./comingsoon.html">Trainers</a></li>
                 </ul>
              </div>
              <div class="col-lg-3 col-sm-3 col-12 footer-social mt-sm-4 mt-2">
@@ -374,6 +379,7 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
