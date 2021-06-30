@@ -59,6 +59,16 @@
     .advertisement-footer{
         margin-bottom: 1rem;
     }
+    .about-bg{
+        position: relative;
+        height: 50vh;
+        background-position: center;
+    }
+    .abt-left{
+        height: 30vh;
+      
+    }
+
     
 }
 
