@@ -427,18 +427,27 @@ footer  a i{
     font-size: 2.5rem;
     font-weight: bold;
 }
-.abt-left{
-    position: relative;
+.abt-left , .register-img,.contact-img2,.contact-img1{
     height: 70vh;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom,rgba(236, 25, 25, 0.642),rgba(0, 0, 0, 0.342)), url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+.register-img{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0 , 0.542),rgba(0, 0, 0, 0.542)), url('https://images.theconversation.com/files/339674/original/file-20200604-130929-iutdtd.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5455%2C3637&q=45&auto=format&w=496&fit=clip');
+}
+.abt-left{
+    background-image: linear-gradient(to bottom,rgba(236, 25, 25, 0.642),rgba(0, 0, 0, 0.342)), url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80');
+}
+.contact-img2{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0 , 0.842),rgba(0, 0, 0, 0.842)), url('https://images.theconversation.com/files/339674/original/file-20200604-130929-iutdtd.jpg?ixlib=rb-1.1.0&rect=8%2C0%2C5455%2C3637&q=45&auto=format&w=496&fit=clip');
+}
+.contact-img1{
+    background-image: linear-gradient(to bottom,rgba(236, 25, 25, 0.842),rgba(236, 25, 25, 0.842)), url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80');
+ }
 
 .abt-right p{
     font-size: small;
@@ -466,5 +475,43 @@ footer  a i{
     background-color: black;
     color: white;
 }
-
-
+form label{
+    font-size: small;
+    margin-bottom: 5px;
+}
+::placeholder{
+    font-size: small;
+}
+form select{
+    font-size: small !important;
+}
+.form-group{
+    margin-top: 0.5rem;
+}
+.contact-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.842)), url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80');
+    color: white;
+    height: 25vh;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.contact-card a{
+    color: white;
+    height: 60%;
+    transform: translateZ(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-card i{
+    font-size: 1.4rem;
+    transform: translateZ(30px);
+}
